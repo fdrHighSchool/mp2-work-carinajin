@@ -1,9 +1,9 @@
 class Main {
   public static void main(String[] args) {
+    System.out.println(countQuarters(50));
     System.out.println(countQuarters(75));
     System.out.println(countQuarters(100));
-    System.out.println(countQuarters(1278));
-    System.out.println(countQuarters(125));
+    System.out.println(countQuarters(1234));
   }
   public static int countQuarters(int cents) {
     String one = "" + cents;
